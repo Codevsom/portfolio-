@@ -1,0 +1,117 @@
+.head{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+img{
+  height:100px;
+  width:100px;
+  border-radius:50px;
+}
+.about{
+  text-align: center;
+  font-family: monaco;
+  border:1px solid green;
+  margin:10px;
+  border-radius:10px;
+}
+h5{
+  text-decoration: underline;
+}
+.sidebar{
+  margin: 0;
+  padding:0;
+  overflow: hidden;
+  list-style-type:none;
+}
+li{
+  float:right;
+}
+li a{
+  text-decoration: none;
+  padding: 14px 16px;
+  display: block;
+  color: black;
+}
+.brand{
+  font-family: monospace;
+  margin-right:20px;
+  color: yellowgreen;
+}
+.about{
+  animation:fadein 4s;
+}
+.skills{
+  text-align: center;
+  border-radius:10px;
+  animation:fadein 5s;
+}
+.p1{
+  width:99%;
+  border-radius:10px;
+  margin:10px;
+}
+.lv1{
+  background-color:lightgreen;
+  width:90%;
+  height:30px;
+  border-radius:10px;
+}
+.p2{
+  width:99%;
+  border-radius:10px;
+  margin:10px;  
+}
+.lv2{
+  background-color:lightgreen;
+  width:50%;
+  height:30px;
+  border-radius:10px;
+} 
+.p3{
+  width:99%;
+  border-radius:10px;
+  margin:10px;
+}
+.lv3{
+  background-color:lightgreen;
+  width:70%;
+  height:30px;
+  border-radius:10px;
+}
+.p4{
+  width:99%;
+  border-radius:10px;
+  margin:10px;
+}
+.lv4{
+  background-color:lightgreen;
+  width:30%;
+  height:30px;
+  border-radius:10px;
+}
+.p5{
+  width:99%;
+  border-radius:10px;
+  margin:10px;
+}
+.lv5{
+  background-color:lightgreen;
+  width:30%;
+  height:30px;
+  border-radius:10px;
+}
+.act{
+  background-color:navy;
+  border-radius:15px;
+}
+.act a{
+  color:ghostwhite;
+}
+img{
+  animation:fadein 3s;
+}
+@keyframes fadein{
+  0%{opacity:0;}
+  100%{opacity:1;}
+}

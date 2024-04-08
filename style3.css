@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+.sidebar{
+  margin: 0;
+  padding:0;
+  overflow: hidden;
+  list-style-type:none;
+}
+li{
+  float:right;
+}
+li a{
+  text-decoration: none;
+  padding: 14px 16px;
+  display: block;
+  color: black;
+}
+.brand{
+  font-family: monospace;
+  margin-right:20px;
+  color: yellowgreen;
+}
+.act{
+  background-color:navy;
+  border-radius:15px;
+}
+.act a{
+  color:ghostwhite;
+}
+.prholder{
+  text-align: center;
+  display:grid;
+  place-items:center;
+}
+.prhead{
+  text-align: center;
+  font-family: "Fjalla One",sans-serif;
+}
+.c1{
+  width:50vw;
+  height:55vw;
+  border:2px solid black;
+  border-radius:20px;
+  font-family:"monospace";
+  margin: 10px;
+  background: url('bg.jpg');
+  color: white;
+  animation:fadein 2s;
+}
+.c1:hover{
+  box-shadow: 11px 10px 5px rgba(0, 0, 0, 0.3);
+  transition:0.7s;
+}
+.c2{
+    width:50vw;
+  height:60vw;
+  border:2px solid #38B0FF;
+  border-radius:20px;
+  font-family:"monospace";
+  margin-top: 50px;
+   background: url('bg.jpg');
+  color: white;
+  animation:fadein 3s;
+  
+}
+.c2:hover{
+  box-shadow: 11px 10px 5px rgba(0, 0, 0, 0.3);
+  transition:0.7s;
+}
+.c2 button{
+  background: #324E95 ;
+  border:2px solid navajowhite;
+  color:white;
+}
+.c3{
+    width:50vw;
+  height:60vw;
+  border:2px solid #C10000;
+  border-radius:20px;
+  font-family:"monospace";
+  margin-top: 50px;
+   background: url('bg.jpg');
+  color: white;
+  animation:fadein 4s;
+}
+.c3:hover{
+  box-shadow: 11px 10px 5px rgba(0, 0, 0, 0.3);
+  transition:0.7s;
+}
+.c3 button{
+  background-color:#2A4587;
+  border:2px solid navajowhite;
+  color:white;
+}
+@keyframes fadein{
+  0%{opacity:0;}
+  100%{opacity:1;}
+}
