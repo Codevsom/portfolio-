@@ -1,0 +1,38 @@
+
+.loader{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  position:fixed;
+  top:-5%;
+  left:39%;
+}
+.elem{
+  border-radius:50%;
+  height:100px;
+  width:100px;
+  background: transparent;
+  border-left:3px solid #AEFF00;
+  border-top:3px solid #AEFF00;
+  animation:1s spin infinite;
+  box-shadow:0 0 100vh #DCFF00;
+}
+@keyframes spin{
+  0%{
+    transform:rotate(0deg);
+  border-left:3px solid #D7FF00;
+  border-top:3px solid #D7FF00;
+  }
+  100%{
+    transform:rotate(360deg);
+   border-left:3px solid #AEFF00;
+  border-top:3px solid #AEFF00;
+  }
+}
+@media only screen and (min-width:768px) {
+  .loader{
+    left:45%;
+    top:-200px;
+  }
+}
